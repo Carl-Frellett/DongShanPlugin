@@ -1,2 +1,2 @@
 # DongShanPlugin
-A 10-version server plugin
+做自己的光，不需要太亮！
