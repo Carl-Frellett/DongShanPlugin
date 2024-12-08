@@ -1,0 +1,151 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net481</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU;x64</Platforms>
+		<Title>RueI</Title>
+		<Copyright>CC0 1.0</Copyright>
+		<Version>2.1.1</Version>
+		<Authors>Rue &lt;3, Override (some help)</Authors>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Description>universal hint framework for scp:sl</Description>
+		<RepositoryUrl>https://github.com/Ruemena/RueI</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/Ruemena/RueI</PackageProjectUrl>
+		<PackageTags>scpsl;hints;scp;exiled;nwapi</PackageTags>
+		<AssemblyVersion>2.1.1</AssemblyVersion>
+		<FileVersion>2.1.1</FileVersion>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<PackageReleaseNotes>various bug fixes, removal of emec, slight changes to various apis and added fixedelement</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<Optimize>True</Optimize>
+		<DebugType>portable</DebugType>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<Optimize>True</Optimize>
+		<DebugType>portable</DebugType>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DebugType>portable</DebugType>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<DebugType>portable</DebugType>
+	</PropertyGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="C:\Users\20332\Downloads\EXILED-2.1.14\\stylecop.json" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Remove="RueI\Displays\Interfaces\Roles.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Remove="RueI\Constants.cs~RF13edd36.TMP" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Lib.Harmony" Version="2.3.3" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\EXILED-2.1.14\Exiled.API\Exiled.API.csproj" />
+	  <ProjectReference Include="..\..\EXILED-2.1.14\Exiled.Bootstrap\Exiled.Bootstrap.csproj" />
+	  <ProjectReference Include="..\..\EXILED-2.1.14\Exiled.Events\Exiled.Events.csproj" />
+	  <ProjectReference Include="..\..\EXILED-2.1.14\Exiled.Loader\Exiled.Loader.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="Assembly-CSharp-firstpass">
+	    <HintPath>..\libs\Assembly-CSharp-firstpass.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="Assembly-CSharp">
+	    <HintPath>..\libs\Assembly-CSharp-Publicized.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="BouncyCastle.Crypto">
+	    <HintPath>..\libs\BouncyCastle.Crypto.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="CommandSystem.Core">
+	    <HintPath>..\libs\CommandSystem.Core.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="Mirror">
+	    <HintPath>..\libs\Mirror.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="NorthwoodLib">
+	    <HintPath>..\libs\NorthwoodLib.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine">
+	    <HintPath>..\libs\UnityEngine.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine.AccessibilityModule">
+	    <HintPath>..\libs\UnityEngine.AccessibilityModule.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine.AnimationModule">
+	    <HintPath>..\libs\UnityEngine.AnimationModule.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine.AudioModule">
+	    <HintPath>..\libs\UnityEngine.AudioModule.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine.CoreModule">
+	    <HintPath>..\libs\UnityEngine.CoreModule.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine.PhysicsModule">
+	    <HintPath>..\libs\UnityEngine.PhysicsModule.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System">
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Core">
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Data">
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Drawing">
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.IO.Compression.FileSystem">
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Numerics">
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Runtime.Serialization">
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Xml">
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Xml.Linq">
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+</Project>
