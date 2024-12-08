@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Exiled.Bootstrap
+build_property.ProjectDir = D:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

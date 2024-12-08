@@ -1,0 +1,27 @@
+C:\Users\20332\Downloads\EXILED-2.1.14\bin\Debug\Exiled.Bootstrap.dll
+C:\Users\20332\Downloads\EXILED-2.1.14\bin\Debug\Exiled.Bootstrap.pdb
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.csproj.AssemblyReference.cache
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.AssemblyInfoInputs.cache
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.AssemblyInfo.cs
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.csproj.CoreCompileInputs.cache
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.dll
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.pdb
+F:\Visual Studio\EXILED-2.1.14\bin\Debug\Exiled.Bootstrap.dll
+F:\Visual Studio\EXILED-2.1.14\bin\Debug\Exiled.Bootstrap.pdb
+F:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.csproj.AssemblyReference.cache
+F:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.AssemblyInfoInputs.cache
+F:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.AssemblyInfo.cs
+F:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.csproj.CoreCompileInputs.cache
+F:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.dll
+F:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.pdb
+D:\Visual Studio\EXILED-2.1.14\bin\Debug\Exiled.Bootstrap.dll
+D:\Visual Studio\EXILED-2.1.14\bin\Debug\Exiled.Bootstrap.pdb
+D:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.csproj.AssemblyReference.cache
+D:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.AssemblyInfoInputs.cache
+D:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.AssemblyInfo.cs
+D:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.csproj.CoreCompileInputs.cache
+D:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.dll
+D:\Visual Studio\EXILED-2.1.14\Exiled.Bootstrap\obj\Debug\Exiled.Bootstrap.pdb

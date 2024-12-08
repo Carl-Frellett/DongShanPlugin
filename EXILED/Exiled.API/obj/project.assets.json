@@ -1,0 +1,177 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8.1": {
+      "Lib.Harmony/2.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net48/0Harmony.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/0Harmony.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "YamlDotNet/9.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lib.Harmony/2.3.3": {
+      "sha512": "qxO8d2q7luoY8mTfCStQFOgRSd3dWZSS0Ffi5nrjX4qFkZxEBAEvNh5b/ZejTl2kY0fJs62LmfRJkBBTeiuuyQ==",
+      "type": "package",
+      "path": "lib.harmony/2.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "HarmonyLogo.png",
+        "LICENSE",
+        "README.md",
+        "lib.harmony.2.3.3.nupkg.sha512",
+        "lib.harmony.nuspec",
+        "lib/net35/0Harmony.dll",
+        "lib/net35/0Harmony.pdb",
+        "lib/net35/0Harmony.xml",
+        "lib/net452/0Harmony.dll",
+        "lib/net452/0Harmony.pdb",
+        "lib/net452/0Harmony.xml",
+        "lib/net472/0Harmony.dll",
+        "lib/net472/0Harmony.pdb",
+        "lib/net472/0Harmony.xml",
+        "lib/net48/0Harmony.dll",
+        "lib/net48/0Harmony.pdb",
+        "lib/net48/0Harmony.xml",
+        "lib/net5.0/0Harmony.dll",
+        "lib/net5.0/0Harmony.pdb",
+        "lib/net5.0/0Harmony.xml",
+        "lib/net6.0/0Harmony.dll",
+        "lib/net6.0/0Harmony.pdb",
+        "lib/net6.0/0Harmony.xml",
+        "lib/net7.0/0Harmony.dll",
+        "lib/net7.0/0Harmony.pdb",
+        "lib/net7.0/0Harmony.xml",
+        "lib/net8.0/0Harmony.dll",
+        "lib/net8.0/0Harmony.pdb",
+        "lib/net8.0/0Harmony.xml",
+        "lib/netcoreapp3.0/0Harmony.dll",
+        "lib/netcoreapp3.0/0Harmony.pdb",
+        "lib/netcoreapp3.0/0Harmony.xml",
+        "lib/netcoreapp3.1/0Harmony.dll",
+        "lib/netcoreapp3.1/0Harmony.pdb",
+        "lib/netcoreapp3.1/0Harmony.xml",
+        "lib/netstandard2.0/_._"
+      ]
+    },
+    "YamlDotNet/9.1.4": {
+      "sha512": "dVVZVhQxTI4xTNc9YorE+RruBFPPYKP44kMijE6Z5OQQE7zK+SEmh2sPm091CrTYVz1jjIuXKIBm1kFLrlsQJg==",
+      "type": "package",
+      "path": "yamldotnet/9.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "images/yamldotnet.png",
+        "lib/net20/YamlDotNet.dll",
+        "lib/net20/YamlDotNet.xml",
+        "lib/net35-client/YamlDotNet.dll",
+        "lib/net35-client/YamlDotNet.xml",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/netstandard1.3/YamlDotNet.dll",
+        "lib/netstandard1.3/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.9.1.4.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8.1": [
+      "Lib.Harmony >= 2.3.3",
+      "YamlDotNet >= 9.1.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\20332\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "2.1.2-DS",
+    "restore": {
+      "projectUniqueName": "D:\\Visual Studio\\EXILED-2.1.14\\Exiled.API\\Exiled.API.csproj",
+      "projectName": "Exiled.API",
+      "projectPath": "D:\\Visual Studio\\EXILED-2.1.14\\Exiled.API\\Exiled.API.csproj",
+      "packagesPath": "C:\\Users\\20332\\.nuget\\packages\\",
+      "outputPath": "D:\\Visual Studio\\EXILED-2.1.14\\Exiled.API\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\20332\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net481"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\20332\\Downloads": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net481": {
+          "targetAlias": "net481",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net481": {
+        "targetAlias": "net481",
+        "dependencies": {
+          "Lib.Harmony": {
+            "target": "Package",
+            "version": "[2.3.3, )"
+          },
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "[9.1.4, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

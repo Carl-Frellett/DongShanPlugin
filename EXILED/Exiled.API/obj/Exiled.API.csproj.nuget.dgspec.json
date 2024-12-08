@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Visual Studio\\EXILED-2.1.14\\Exiled.API\\Exiled.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Visual Studio\\EXILED-2.1.14\\Exiled.API\\Exiled.API.csproj": {
+      "version": "2.1.2-DS",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio\\EXILED-2.1.14\\Exiled.API\\Exiled.API.csproj",
+        "projectName": "Exiled.API",
+        "projectPath": "D:\\Visual Studio\\EXILED-2.1.14\\Exiled.API\\Exiled.API.csproj",
+        "packagesPath": "C:\\Users\\20332\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\EXILED-2.1.14\\Exiled.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\20332\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net481"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\20332\\Downloads": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net481": {
+            "targetAlias": "net481",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net481": {
+          "targetAlias": "net481",
+          "dependencies": {
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.3.3, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[9.1.4, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

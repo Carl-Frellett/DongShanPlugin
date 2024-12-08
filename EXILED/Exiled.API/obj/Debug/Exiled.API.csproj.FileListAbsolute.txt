@@ -1,0 +1,30 @@
+C:\Users\20332\Downloads\EXILED-2.1.14\bin\Debug\Exiled.API.dll
+C:\Users\20332\Downloads\EXILED-2.1.14\bin\Debug\Exiled.API.pdb
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.csproj.AssemblyReference.cache
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.AssemblyInfoInputs.cache
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.AssemblyInfo.cs
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.csproj.CoreCompileInputs.cache
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.csproj.Up2Date
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.dll
+C:\Users\20332\Downloads\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.pdb
+F:\Visual Studio\EXILED-2.1.14\bin\Debug\Exiled.API.dll
+F:\Visual Studio\EXILED-2.1.14\bin\Debug\Exiled.API.pdb
+F:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.csproj.AssemblyReference.cache
+F:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.AssemblyInfoInputs.cache
+F:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.AssemblyInfo.cs
+F:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.csproj.CoreCompileInputs.cache
+F:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.csproj.Up2Date
+F:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.dll
+F:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.pdb
+D:\Visual Studio\EXILED-2.1.14\bin\Debug\Exiled.API.dll
+D:\Visual Studio\EXILED-2.1.14\bin\Debug\Exiled.API.pdb
+D:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.csproj.AssemblyReference.cache
+D:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.AssemblyInfoInputs.cache
+D:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.AssemblyInfo.cs
+D:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.csproj.CoreCompileInputs.cache
+D:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.csproj.Up2Date
+D:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.dll
+D:\Visual Studio\EXILED-2.1.14\Exiled.API\obj\Debug\Exiled.API.pdb

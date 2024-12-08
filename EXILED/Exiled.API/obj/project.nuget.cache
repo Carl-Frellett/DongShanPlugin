@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JxttykYzlqg=",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio\\EXILED-2.1.14\\Exiled.API\\Exiled.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\20332\\.nuget\\packages\\lib.harmony\\2.3.3\\lib.harmony.2.3.3.nupkg.sha512",
+    "C:\\Users\\20332\\.nuget\\packages\\yamldotnet\\9.1.4\\yamldotnet.9.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
