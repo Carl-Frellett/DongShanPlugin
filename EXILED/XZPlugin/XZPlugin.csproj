@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDC61015-AE9A-4D11-B17D-F643CE02ECEF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XZPlugin</RootNamespace>
+    <AssemblyName>XZPlugin</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>C:\Users\20332\Downloads\EXILED-2.1.14\\Exiled.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>C:\Users\20332\Downloads\EXILED-2.1.14\\Exiled.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.3.3\lib\net48\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\libs\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-Publicized">
+      <HintPath>..\libs\Assembly-CSharp-Publicized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\libs\BouncyCastle.Crypto.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>..\libs\CommandSystem.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>..\libs\Mirror.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NorthwoodLib">
+      <HintPath>..\libs\NorthwoodLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\libs\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>..\libs\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\libs\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\libs\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\libs\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\libs\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\ChatSystem\ac.cs" />
+    <Compile Include="Command\ChatSystem\bc.cs" />
+    <Compile Include="Command\ChatSystem\c.cs" />
+    <Compile Include="Command\ChatSystem\q.cs" />
+    <Compile Include="Command\Game\killme.cs" />
+    <Compile Include="Command\Game\PlayerNameCommand.cs" />
+    <Compile Include="Command\Game\Severinfo.cs" />
+    <Compile Include="Command\Game\TPS.cs" />
+    <Compile Include="Command\Game\TX\TX.cs" />
+    <Compile Include="Command\Game\TX\TX_Event.cs" />
+    <Compile Include="Command\Game\USPd.cs" />
+    <Compile Include="Command\Help.cs" />
+    <Compile Include="Command\Other\ItemList.cs" />
+    <Compile Include="Command\Other\RoleList.cs" />
+    <Compile Include="Game\EventHandlers.cs" />
+    <Compile Include="Game\Events\Coin.cs" />
+    <Compile Include="Game\Events\GroupGo.cs" />
+    <Compile Include="Game\Events\kongtou.cs" />
+    <Compile Include="Game\Events\SomeEvents.cs" />
+    <Compile Include="Game\InventoryAccess.cs" />
+    <Compile Include="Game\Replacer.cs" />
+    <Compile Include="Game\SCP914Mode.cs" />
+    <Compile Include="Game\SCPINFO.cs" />
+    <Compile Include="Game\SCPs\Item\SCP1056.cs" />
+    <Compile Include="Game\SCPs\Player\Bright.cs" />
+    <Compile Include="Game\SCPs\Player\SCP181.cs" />
+    <Compile Include="Game\SCPs\Player\SCP2498.cs" />
+    <Compile Include="Game\SCPs\Player\SCP550.cs" />
+    <Compile Include="Game\SCPs\Player\SCP6000.cs" />
+    <Compile Include="Game\SCPs\Player\SCP682.cs" />
+    <Compile Include="Game\SCPs\Player\SCP703.cs" />
+    <Compile Include="Game\TeamNum.cs" />
+    <Compile Include="Game\WaitingPlayer.cs" />
+    <Compile Include="Game\WeaponsAge\InfinityAmmo.cs" />
+    <Compile Include="Game\WeaponsAge\USP.cs" />
+    <Compile Include="PluginCofing.cs" />
+    <Compile Include="PluginTranslation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterCommand.cs" />
+    <Compile Include="Server\DongShanAPI\Item\RomoveItem.cs" />
+    <Compile Include="Server\DongShanAPI\SeverCommandAdmin\OpenAdmin.cs" />
+    <Compile Include="Server\DongShanAPI\SeverCommandAdmin\AdminFileManager.cs" />
+    <Compile Include="Server\DongShanAPI\Badge\Rainbow\RTags.cs" />
+    <Compile Include="Server\DongShanAPI\Badge\Rainbow\TagController.cs" />
+    <Compile Include="Server\DongShanAPI\Badge\OnlyTag.cs" />
+    <Compile Include="Server\DongShanAPI\Hint\ARuelHint.cs" />
+    <Compile Include="Server\DongShanAPI\Hint\RueIHint.cs" />
+    <Compile Include="Server\DongShanAPI\Item\SpawnItem.cs" />
+    <Compile Include="Server\Harmony\WarheadWithoutKeycardPatch.cs" />
+    <Compile Include="SeverCommandAdminV3\AdminStartGroup_Command.cs" />
+    <Compile Include="SeverCommandAdminV3\AdminStartGroup.cs" />
+    <Compile Include="SeverCommandAdminV3\AdminStart.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Map\Cleaner.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Map\Nuke.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\bypass.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\ChangRole.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\ClearPlayerItems.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\ControlsPickdropItems.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\GiveItem.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\Godmode.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\HP.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\kill.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\Noclip.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\SetPlayerSize.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\AdvancedItemSpawn.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\SetPlayerModel.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Player\Teleport.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Round\Respawn.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Round\RoundLobbyLock.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Round\RoundLock.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Round\RoundRestart.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Game\Round\RoundStart.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Safe\ban.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Safe\kick.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\Safe\Overwatch.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\StartSCP\Satrt181.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\StartSCP\Start2498.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\StartSCP\Start550.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\StartSCP\Start6000.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\StartSCP\Start682.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\StartSCP\Start703.cs" />
+    <Compile Include="SeverCommandAdminV3\Command\StartSCP\StartBright.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Exiled.API\Exiled.API.csproj">
+      <Project>{46a0afa9-d73a-4131-93ea-0ca7b7a1a101}</Project>
+      <Name>Exiled.API</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Exiled.Events\Exiled.Events.csproj">
+      <Project>{1e6c4350-5067-4ce7-91db-6420d027a4fc}</Project>
+      <Name>Exiled.Events</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Exiled.Loader\Exiled.Loader.csproj">
+      <Project>{1abec6ce-e209-4c38-ab45-2f3b7f6091ca}</Project>
+      <Name>Exiled.Loader</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\RueI\RueI.csproj">
+      <Project>{c469ce19-cc41-4d4d-b35f-e6b4d87c73f0}</Project>
+      <Name>RueI</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Game\BadgeSystem\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
